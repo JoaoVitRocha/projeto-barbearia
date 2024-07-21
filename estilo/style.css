@@ -46,7 +46,7 @@ header{
 
 header h1{
     font-family: var(--fonte-decorada);
-    font-size: 3em;
+    font-size: 4em;
     padding: 10px;
     text-align: center;
 }
@@ -62,19 +62,19 @@ header p{
 
 header nav{
     text-align: center;
-    padding: 10px 10px 9px 10px;
-    margin-top: 20px;
+    margin-top: 60px;
+    padding-bottom: 9px;
 }
 
 header nav>a{
     background-color: var(--cor4);
     text-decoration: none;
-    font-size: 1.6em;
+    font-size: 1.5em;
     padding: 10px;
     font-family: var(--fonte-decorada);
     color: var(--cor5);
     text-shadow: 0px 0px 2px white;
-    margin: 0px 30px ;
+    margin: 0px 25px ;
     border-radius: 8px 8px 0px 0px;
 }
 
@@ -85,6 +85,10 @@ header nav>a:hover{
 
 main{
     background-color: #8e877ed6;
+    width: 100%;
+}
+
+main>section.s1{
     width: 100%;
 }
 
@@ -109,10 +113,14 @@ main .s1 p{
 
 main .s1 img{
     display: block;
-    width: 450px;
+    width: 350px;
     margin: auto;
     padding: 10px;
     border-radius: 20px;
+}
+
+main>section.s2{
+    width: 100%;
 }
 
 section.s2 h2{
@@ -136,14 +144,15 @@ section.s2 p{
 
 section.s2 article.a1 img{
     display: block;
-    width: 450px;
+    width: 350px;
     margin: auto;
     padding: 10px;
     border-radius: 20px;
 }
 
-section.s2 article.a2{
-    display: none;
+
+main>section.s3{
+    width: 100%;
 }
 
 section.s3 .f1>h2{
@@ -169,6 +178,10 @@ section.s3 .fundo{
     display: none;
 }
 
+main>section.s4{
+    width: 100%;
+}
+
 section.s4>h3{
     font-size: 1.8em;
     color: white;
@@ -179,7 +192,7 @@ section.s4>h3{
 
 section.s4 img{
     display: block;
-    width: 400px;
+    width: 250px;
     margin: auto;
     padding: 10px;
 }
