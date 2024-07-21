@@ -18,6 +18,7 @@
     --cor3: #6F8AB7;
     --cor4: #4A2208;
     --cor5: #F4E7D7;
+    --cor6: #7d4825;
 
     --fonte-padrao: arial, sans-serif;
     --fonte-destaque: 'Bebas Neue', sans-serif;
@@ -34,7 +35,7 @@ p{
 }
 
 strong{
-    color: #12263A;
+    color: #F4E7D7;
     font-weight: bolder;
 }
 
@@ -84,7 +85,7 @@ header nav>a:hover{
 }
 
 main{
-    background-color: #8e877ed6;
+    background-color: #4A2208;
     width: 100%;
 }
 
@@ -95,7 +96,7 @@ main>section.s1{
 main .s1 h2{
     font-size: 2em;
     color: white;
-    background-color: #615D6C;
+    background-color: var(--cor6);
     text-align: center;
     padding: 10px;
     text-shadow: 0px 0px 2px #4A2208;
@@ -126,7 +127,7 @@ main>section.s2{
 section.s2 h2{
     font-size: 2em;
     color: white;
-    background-color: #615D6C;
+    background-color: var(--cor6);
     text-align: center;
     padding: 10px;
     text-shadow: 0px 0px 2px black;
@@ -158,7 +159,7 @@ main>section.s3{
 section.s3 .f1>h2{
     font-size: 2em;
     color: white;
-    background-color: #615D6C;
+    background-color: var(--cor4);
     text-align: center;
     padding: 10px;
     text-shadow: 0px 0px 2px black;
@@ -187,14 +188,16 @@ section.s4>h3{
     color: white;
     text-align: center;
     padding: 5px;
-    background-color: #4A2208;
+    background-color: var(--cor6);
 }
 
 section.s4 img{
     display: block;
     width: 250px;
     margin: auto;
+    margin-top: 50px;
     padding: 10px;
+    padding-bottom: 60px;
 }
 
 footer{
