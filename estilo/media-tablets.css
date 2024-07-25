@@ -70,5 +70,9 @@ Grandes Telas: acima de 1200px
     width: 80px;
     margin: 20px 40px;
    }
+
+   footer div.social p{
+      font-size: 1em;
+   }
     
 }

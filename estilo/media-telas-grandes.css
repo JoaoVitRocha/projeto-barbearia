@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@media screen and (min-width:992px) {
+
+    header h1{
+        font-size: 5em;
+    }
+
+    header p{
+        font-size: 1.5em;
+        max-width: 800px;
+    }
+
+    header nav>a{
+        font-size: 2em;
+        padding: 12px 20px;
+        margin: 0px 55px;
+    }
+
+    main{
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    main .s1 h2, section.s2 h2, .s3 .f1>h2, .s4>h3{
+        background-image: linear-gradient(to right, #612d0a , var(--cor6), var(--cor6), #612d0a );
+        font-size: 2.3em;
+    }
+
+    main .s1 p{
+        max-width: 880px;
+        font-size: 1.4em;
+    }
+
+    section.s2 section.secao{
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    section.secao .a1{
+        display: block;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    section.s2  article.a1 p{
+        display: inline-block;
+        max-width: 700px;
+        font-size: 1.6em;
+        vertical-align: top;
+        transform: translateY(50%);
+        margin-right: 20px;
+    }
+
+    section.s2 article.a1 img{
+        display: inline-block;
+        width: 400px;
+    }
+
+
+    section.s3 .f1>p{
+        max-width: 880px;
+        font-size: 1.4em;
+    }
+
+    main .s1 img{
+        width: 700px;
+    }
+
+    section.s3 {
+        position:relative;
+    }
+
+    .s3 div.f1{
+        margin: 30px 0px;
+    }
+
+    section.s3 .fundo{
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 500px;
+        margin: auto;
+        background-color: aliceblue;
+        background-image: url(../imagens/barba-fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    .s3 .fundo p{
+        position: absolute;
+        color: var(--cor4);
+        width: 600px;
+        background-color: var(--cor5);
+    }
+
+    .fundo p#p1{
+        padding: 30px;
+        font-size: 1.3em;
+        border-radius: 0px 0px 30px 0px;
+    }
+
+    .fundo p#p2{
+        bottom: 0px;
+        right: 0px;
+        font-size: 1.3em;
+        padding: 30px;
+        border-radius: 30px 0px 0px 0px;
+    }
+
+    .fundo img{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    section.s4>h3{
+        font-size: 2.3em;
+        margin-top: 40px;
+    }
+
+    section.s4 img{
+        width: 500px;
+    }
+
+    footer section#s5{
+        width: 1000px;
+    }
+
+    footer div.social{
+        width: 100px;
+        margin: 20px 50px;
+    }
+
+    footer div.social p{
+        font-size: 1em;
+    }
+
+}
